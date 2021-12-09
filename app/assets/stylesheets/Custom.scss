@@ -1,0 +1,58 @@
+@import "bootstrap-sprockets"; 
+@import "bootstrap";
+
+#logo
+{
+    font-family: 'Times New Roman', Times, serif;
+    color: orange;
+    font-size: 30px;
+}
+#icono{
+
+    width: 40px;
+    height: 40px;
+    margin-right: 4px;
+    margin-left: 0px;
+    
+}
+
+body{
+    margin: 0;
+    
+    background-image: url("abstract-luxury-blur-dark-grey-and-black-gradient-used-as-background-studio-wall-for-display-your-products.jpg");
+   
+    
+
+}
+
+#homebody{
+    margin-top: 100px;
+
+    opacity: 0.8;
+}
+#listabody
+{
+    margin-top: 100px;
+
+    opacity: 0.8;
+}
+.container{
+    margin-left: 1;
+}
+#Bit{
+    
+    width: 60px;
+    height: 60px;;
+}
+
+#Bit2{
+    
+    width: 60px;
+    height: 60px;;
+}
+header{
+    height: 60px;
+}
+nav{
+    margin-top: 5px;
+}
