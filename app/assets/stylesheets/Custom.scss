@@ -34,7 +34,11 @@ body{
 {
     margin-top: 100px;
 
-    opacity: 0.8;
+   
+}
+#list_title{
+    border-bottom: 6px solid #2124e2;
+    margin-bottom: 50px;
 }
 .container{
     margin-left: 1;
@@ -55,4 +59,14 @@ header{
 }
 nav{
     margin-top: 5px;
+}
+
+#buscar_buttom{
+    border-radius: 25px;
+    margin-top: 10px;
+   
+}
+#TableSearch
+{
+    margin-top: 20px;
 }
