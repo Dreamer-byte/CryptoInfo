@@ -10,6 +10,13 @@
   
  
   <%= image_tag("pngegg.png", alt: "Bit coin",id:"Bit2") %>
-  <%= link_to "Inicciar session", '#', class: "btn btn-lg btn-primary" %> 
+
+  <% if signed_in? %>
+    
+    <%= link_to "Cerrar session", destroy_user_session_path, method: :delete,class: "btn btn-lg btn-danger"%>
+    
+  <% else %>
+    <%= link_to "Ingresar", new_user_session_path,class: "btn btn-lg btn-primary" %>
+  <% end %>
   <%= image_tag("pngegg.png", alt: "Bit coin",id:"Bit2") %>
 </div>

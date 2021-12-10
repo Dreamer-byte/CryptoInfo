@@ -28,7 +28,7 @@ body{
 #homebody{
     margin-top: 100px;
 
-    opacity: 0.8;
+    opacity: 1;
 }
 #listabody
 {
@@ -70,4 +70,27 @@ nav{
 {
     margin-top: 20px;
     
+}
+li{
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#logout{
+    
+    color: red;
+    
+}
+#idalert{
+    margin-top: 30px;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#login{
+    color: rgb(91, 91, 235);
+}
+
+#Reg{
+    color: rgb(68, 219, 68);
 }
